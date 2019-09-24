@@ -31,29 +31,19 @@ public class OldLady {
 	}
 	public static void spider() {
 		System.out.println("She swallowed the spider to catch the fly,");
-		System.out.println("I don't know why she swallowed that fly,");
-		System.out.println("Perhaps she'll die.");
+		fly();
 	}
 	public static void bird() {
 		System.out.println("She swallowed the bird to catch the spider,");
-		System.out.println("She swallowed the spider to catch the fly,");
-		System.out.println("I don't know why she swallowed that fly,");
-		System.out.println("Perhaps she'll die.");
+		spider();
 	}
 	public static void cat() {
 		System.out.println("She swallowed the cat to catch the bird,");
-		System.out.println("She swallowed the bird to catch the spider,");
-		System.out.println("She swallowed the spider to catch the fly,");
-		System.out.println("I don't know why she swallowed that fly,");
-		System.out.println("Perhaps she'll die.");
+		bird();
 	}
 	public static void dog() {
 		System.out.println("She swallowed the dog to catch the cat,");
-		System.out.println("She swallowed the cat to catch the bird,");
-		System.out.println("She swallowed the bird to catch the spider,");
-		System.out.println("She swallowed the spider to catch the fly,");
-		System.out.println("I don't know why she swallowed that fly,");
-		System.out.println("Perhaps she'll die.");
+	    cat();
 	}
 	
 }
