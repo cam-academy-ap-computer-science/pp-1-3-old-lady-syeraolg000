@@ -1,4 +1,15 @@
-
+/***
+ * GRADING COMMENTS:
+ *  Excellent effort.   Your code is clean and easy to read and functional.
+ *  You got the main concept of nesting the methods such that your
+ *  code is almost as efficient as it could be.   You could have gotten 
+ *  rid of some more duplication by having a 'System.out.print("There was an old lady");'
+ *  method and calling that throughout, but you did very well.
+ *  Compiles and runs: 15/15
+ *  Desired output: 6/6
+ *  Efficiency: 1/2
+ *  2/2   24/25 total.
+ */
 public class OldLady {
 	
 	public static void main(String[] args) {
